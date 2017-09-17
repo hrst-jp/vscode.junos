@@ -18,8 +18,8 @@
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "hrst.junos",
-            "scopeName": "hrst.junos",
+            "language": "junos",
+            "scopeName": "junos",
             "path": "./syntaxes/junos.tmLanguage.json"
         }]
     }

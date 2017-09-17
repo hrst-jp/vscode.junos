@@ -7,7 +7,18 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"match": "[0-9a-zA-z]$",
+			"name":"invalid"
+		},
+		{
+			"match": "\\b(\\S+)\\s{",
+				"captures": {
+					"1":{ "name":"entity.name.section"}
+				}
 		}
+
 	],
 	"repository": {
 		"keywords": {
@@ -22,7 +33,7 @@
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.hrst.junos",
+					"name": "constant.character.escape.junos",
 					"match": "\\\\."
 				}
 			]
