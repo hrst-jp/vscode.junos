@@ -1,0 +1,26 @@
+{
+    "name": "junos",
+    "displayName": "junos",
+    "description": "Juniper junos",
+    "version": "0.0.1",
+    "publisher": "hrst",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "junos",
+            "aliases": ["junos"],
+            "extensions": [".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "hrst.junos",
+            "scopeName": "hrst.junos",
+            "path": "./syntaxes/junos.tmLanguage.json"
+        }]
+    }
+}
